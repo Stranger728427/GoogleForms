@@ -1,0 +1,133 @@
+.app{
+ 
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+}
+
+
+.description{
+    border: 1px solid #dadce0;
+    width: 100%;
+    border-left:10px solid blue;
+    margin-bottom:20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.description > input{
+    flex: 1;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.outer-container{
+    
+  width: 60%;
+  /* max-width: 800px; */
+  height: 100%;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: #c6cacc;
+
+}
+
+.form-container{
+    
+    margin: 10px;
+    background-color: rgb(235, 245, 245);
+}
+.header{
+    flex: 1;
+    height: 50px ;
+    
+    display: flex;
+    align-items: center;
+}
+     
+.header > input{
+    flex: 1;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+   
+}
+
+.header > input:hover{
+    background-color: rgb(206, 204, 204);
+}
+
+.choices {
+    padding: 20px;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .choices > option{
+     font: 1em sans-serif;
+     font-size: 30px;
+  }
+
+.body{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.body > input{
+    height: 30px;
+    border-style: none;
+    } 
+
+.body > input:hover{
+        
+    border-bottom: 1px solid grey;
+} 
+
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #dadce0;
+    background-color: #f0f2f5;
+    gap: 25px;
+    
+    
+}
+
+.body > input[type='text'] {
+    flex: 1;
+    height: 40px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+
+.footer > p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+
+.required-icon{
+  cursor: pointer;
+  
+}
