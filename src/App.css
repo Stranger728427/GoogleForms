@@ -9,7 +9,7 @@
 .description{
     border: 1px solid #dadce0;
     width: 100%;
-    border-left:10px solid blue;
+    border-top:10px solid blue;
     margin-bottom:20px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -43,10 +43,15 @@
     margin: 10px;
     background-color: rgb(235, 245, 245);
 }
+
+.blue-bordered-form{
+    margin: 10px;
+    background-color: rgb(235, 245, 245);
+    border-left: 10px solid blue;
+}
 .header{
     flex: 1;
     height: 50px ;
-    
     display: flex;
     align-items: center;
 }
@@ -63,7 +68,7 @@
 
 .header > input:hover{
     background-color: rgb(206, 204, 204);
-}
+}a
 
 .choices {
     padding: 20px;
