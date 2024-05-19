@@ -1,4 +1,14 @@
 # React + Vite
+To Run This Project
+
+use
+
+npm install
+
+npm run dev
+
+
+it is a type of google forms 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
